@@ -1,0 +1,1 @@
+{"embedding_model": "word2vec-google-news-300", "embedding_dim": 300, "shape": [1874, 300], "missing_word_count": 317}
