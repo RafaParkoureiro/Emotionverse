@@ -1,1 +1,0 @@
-{"embedding_model": "glove-wiki-gigaword-100", "embedding_dim": 100, "shape": [1874, 100], "missing_word_count": 317}

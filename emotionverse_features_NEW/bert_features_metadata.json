@@ -1,1 +1,0 @@
-{"model": "bert-base-uncased", "embedding_dim": 768, "pooling_method": "mean", "shape": [1874, 768]}

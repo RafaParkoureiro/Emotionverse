@@ -1,1 +1,0 @@
-{"score_types": ["negative", "neutral", "positive", "compound"], "shape": [1874, 4], "lexicon": "VADER", "description": "Document-level sentiment scores weighted by term frequency"}

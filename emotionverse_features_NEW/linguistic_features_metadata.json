@@ -1,1 +1,0 @@
-{"feature_names": ["text_length", "avg_word_length", "intensifier_count", "diminisher_count", "negation_count", "vader_neg", "vader_neu", "vader_pos", "vader_compound", "pos_neg_ratio"], "shape": [1874, 10]}

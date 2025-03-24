@@ -1,0 +1,1 @@
+{"score_types": ["anger", "fear", "anticipation", "trust", "surprise", "sadness", "joy", "disgust", "positive", "negative"], "shape": [1874, 10], "lexicon": "NRC", "description": "Document-level NRC emotion scores weighted by term frequency"}

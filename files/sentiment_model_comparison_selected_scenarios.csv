@@ -1,5 +1,0 @@
-model,scenario,accuracy,weighted_f1
-TF-IDF - Linear SVM,Original→Original,0.7973333333333333,0.7977063708137172
-TF-IDF - Linear SVM,SMOTE→Original,0.784,0.7838690998690999
-BoW - Logistic Regression,SMOTE→Original,0.7733333333333333,0.7732386654018222
-BoW - Logistic Regression,Original→Original,0.7653333333333333,0.7654038086829374

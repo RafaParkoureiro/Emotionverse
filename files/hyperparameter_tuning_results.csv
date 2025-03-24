@@ -1,3 +1,0 @@
-model,best_params,f1_score,training_time
-TF-IDF+Emb300+Lexicon - LinearSVC,"{'C': 1.0, 'dual': True, 'loss': 'hinge', 'tol': 0.0001}",0.7900907646243507,36.52864408493042
-BoW+Emb300+Lexicon - Logistic Regression,"{'C': 0.5, 'l1_ratio': 0.2, 'penalty': 'l2', 'solver': 'saga', 'tol': 0.0001}",0.7780014173412432,3098.402617931366

@@ -1,5 +1,0 @@
-model,scenario,accuracy,weighted_f1
-TF-IDF+Emb300+Lexicon - Linear SVM,Original→Original,0.816,0.816100027447314
-TF-IDF+Emb300+Lexicon - Linear SVM,SMOTE→Original,0.816,0.816114051184329
-BoW+Emb300+Lexicon - Logistic Regression,Original→Original,0.792,0.7917755734005144
-BoW+Emb300+Lexicon - Logistic Regression,SMOTE→Original,0.792,0.791903205011251

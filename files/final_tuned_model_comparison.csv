@@ -1,3 +1,0 @@
-model,parameters,accuracy,accuracy_std,f1_score,f1_score_std
-TF-IDF+Emb300+Lexicon - LinearSVC,"{'C': 1.0, 'dual': True, 'loss': 'hinge', 'tol': 0.0001}",0.7918802139037433,0.02375386506384162,0.7900907646243507,0.024654285465688684
-BoW+Emb300+Lexicon - Logistic Regression,"{'C': 0.5, 'l1_ratio': 0.2, 'penalty': 'l2', 'solver': 'saga', 'tol': 0.0001}",0.7806759358288768,0.021501882331282248,0.7780014173412432,0.023711911326288488
