@@ -36,7 +36,7 @@ The project is split into two main notebooks:
 
 ---
 
-## 🧪 Feature Engineering
+##  Feature Engineering
 
 We evaluated and combined different types of features:
 
@@ -47,7 +47,7 @@ We evaluated and combined different types of features:
 
 ---
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 We compared models trained on different feature representations. Highlights include:
 
@@ -61,7 +61,7 @@ We compared models trained on different feature representations. Highlights incl
 
 ---
 
-## 📁 Files
+##  Files
 
 - `preproc.ipynb`: Text preprocessing, EDA, and feature extraction
 - `models.ipynb`: Model training, evaluation, comparison
@@ -71,17 +71,10 @@ We compared models trained on different feature representations. Highlights incl
 
 ---
 
-## 🚀 How to Reproduce
+##  How to Reproduce
 
 1. Clone the repo
 2. Install dependencies (see below)
 3. Run the notebooks in order:
    - `preproc.ipynb`
    - `models.ipynb`
-
----
-
-## ⚙️ Dependencies
-
-```bash
-pip install -r requirements.txt
