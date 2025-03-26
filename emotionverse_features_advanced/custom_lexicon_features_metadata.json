@@ -1,0 +1,16 @@
+{
+  "features": [
+    "Mixed",
+    "Negative",
+    "Positive",
+    "Neutral",
+    "Ambiguous"
+  ],
+  "shape": [
+    1874,
+    5
+  ],
+  "source": "custom lexicon based on training data",
+  "text_column": "clean_text",
+  "label_column": "sentiment"
+}

@@ -1,0 +1,1 @@
+{"shapes": {"tfidf": [1874, 3269], "nrc": [1874, 5], "embeddings": [1874, 384], "combined": [1874, 3658]}, "dtypes": {"tfidf": "float64", "nrc": "float64", "embeddings": "float32", "combined": "float64"}, "sparsity": {"tfidf": 0.9959613823201884, "nrc": 0.0008537886872999056, "embeddings": 0.0005336179295624133, "combined": 0.8901057783031942}}
