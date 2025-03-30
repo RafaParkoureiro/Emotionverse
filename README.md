@@ -10,29 +10,32 @@ This repository explores sentiment classification on the **EmotionVerse** datase
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
-The project is split into two main notebooks:
+The project is organized across three main notebooks:
 
-1. **`preproc.ipynb`** – Focused on:
+1. **[`PreProcessingEmotionverseText.ipynb`](https://github.com/RafaParkoureiro/Emotionverse/blob/main/PreProcessingEmotionverseText.ipynb)**  
+   Focuses on:
    - Text cleaning and normalization
    - Exploratory Data Analysis (EDA)
-   - Feature extraction with various techniques:
-     - Bag-of-Words (BoW)
-     - TF-IDF
-     - VADER and NRC lexicon features
-     - Sentence embeddings (using BERT)
-     - Feature combinations and normalization
+   - Preliminary insights into class distribution and word usage
 
-2. **`models.ipynb`** – Focused on:
-   - Sentiment classification using various models:
-     - Logistic Regression
-     - Linear SVM
-     - Random Forest (in specific scenarios)
-   - Evaluation across multiple feature sets
+2. **[`Feature_Extraction_EDA.ipynb`](https://github.com/RafaParkoureiro/Emotionverse/blob/main/Feature_Extraction_EDA.ipynb)**  
+   Dedicated to feature engineering:
+   - Bag-of-Words (BoW)
+   - TF-IDF vectorization
+   - Lexicon-based features (VADER and Custom Lexicon)
+   - Sentence embeddings (Sentence-BERT: `all-MiniLM-L6-v2`)
+   - Feature normalization and combination strategies
+
+3. **[`Classification.ipynb`](https://github.com/RafaParkoureiro/Emotionverse/blob/main/Classification.ipynb)**  
+   Responsible for training and evaluating sentiment classifiers:
+   - Logistic Regression, SVM, Random Forest, Naive Bayes
+   - Evaluation on multiple feature sets
+   - Confusion matrices and class-wise metrics
    - Model comparison using Accuracy and F1-Score
-   - Confusion matrices and per-class performance
-   - Fine-tuning with precomputed **BERT** embeddings and advanced classifiers
+   - Fine-tuning with BERT embeddings and advanced classifiers
+   - Explainability 
 
 ---
 
@@ -41,30 +44,17 @@ The project is split into two main notebooks:
 We evaluated and combined different types of features:
 
 - **Traditional**: TF-IDF, BoW
-- **Lexicon-based**: VADER and NRC
+- **Lexicon-based**: VADER and Custom Lexicon sentiment scores
 - **Embedding-based**: Sentence-BERT (`all-MiniLM-L6-v2`)
 - **Combined**: Multiple fusion strategies (e.g., TF-IDF + VADER + BERT)
 
 ---
 
-##  Model Evaluation
-
-We compared models trained on different feature representations. Highlights include:
-
-- **Best non-BERT model**:  
-  `Combined All BERT + Logistic Regression`  
-  → Accuracy: **0.800**, F1-Score: **0.7968**
-
-- **Best BERT fine-tuned model**:  
-  `BERT Fine-tuned + SVM (RBF Kernel)`  
-  → Accuracy: **0.7813**, F1-Score: **0.7784**
-
----
-
 ##  Files
 
-- `preproc.ipynb`: Text preprocessing, EDA, and feature extraction
-- `models.ipynb`: Model training, evaluation, comparison
+- `PreProcessingEmotionverseText.ipynb`: Text preprocessing and initial EDA
+- `Feature_Extraction_EDA.ipynb`: Feature engineering and vectorization
+- `Classification.ipynb`: Model training, evaluation, and comparison
 - `emotionverse_features_advanced/`: Directory storing precomputed features
 - `best_sentiment_model.pkl`: Saved best-performing model
 - `sentiment_model_comparison_with_bert.csv`: Summary table of all results
@@ -74,7 +64,8 @@ We compared models trained on different feature representations. Highlights incl
 ##  How to Reproduce
 
 1. Clone the repo
-2. Install dependencies (see below)
-3. Run the notebooks in order:
-   - `preproc.ipynb`
-   - `models.ipynb`
+2. Run the notebooks in order:
+   - `PreProcessingEmotionverseText.ipynb`
+   - `Feature_Extraction_EDA.ipynb`
+   - `Classification.ipynb`
+
