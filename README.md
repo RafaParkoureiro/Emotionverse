@@ -35,7 +35,21 @@ The project is organized across three main notebooks:
    - Confusion matrices and class-wise metrics
    - Model comparison using Accuracy and F1-Score
    - Fine-tuning with BERT embeddings and advanced classifiers
-   - Explainability 
+   - Explainability
+     
+4. **[`robertafinetuned.ipynb`](https://github.com/RafaParkoureiro/Emotionverse/blob/main/robertafinetuned.ipynb)**  
+   Uses a pre-trained model (Hugging Face's Roberta-base) and adapts to our domain to classify the sentiment:
+   - Fine-tunes the model
+   - Cross-validation for robust analysis
+   - Visualizations and results
+   - Where it fails and why
+
+4. **[`sentimentmodelfinetuned.ipynb`](https://github.com/RafaParkoureiro/Emotionverse/blob/main/sentimentmodelfinetuned.ipynb)**  
+   Uses a pre-trained model (Hugging Face's distilbert-base-uncased-finetuned-sst-2-english) and adapts to our domain to classify the sentiment:
+   - Fine-tunes the model
+   - Cross-validation for robust analysis
+   - Visualizations and results
+   - Where it fails and why
 
 ---
 
@@ -58,7 +72,8 @@ We evaluated and combined different types of features:
 - `emotionverse_features_advanced/`: Directory storing precomputed features
 - `best_sentiment_model.pkl`: Saved best-performing model
 - `sentiment_model_comparison_with_bert.csv`: Summary table of all results
-
+- `sentimentmodelfinetuned.ipynb`: Using a sentiment pre-trained model from hugging face and fine-tune it 
+- `robertafinetuned.ipynb`: Using the roberta-base pre-trained model from hugging face and fine-tune it 
 ---
 
 ##  How to Reproduce
@@ -68,4 +83,5 @@ We evaluated and combined different types of features:
    - `PreProcessingEmotionverseText.ipynb`
    - `Feature_Extraction_EDA.ipynb`
    - `Classification.ipynb`
+   - `sentimentmodelfinetuned.ipynb` and `robertafinetuned.ipynb` ( the order doesn't matter )
 
