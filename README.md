@@ -73,7 +73,8 @@ We evaluated and combined different types of features:
 - `best_sentiment_model.pkl`: Saved best-performing model
 - `sentiment_model_comparison_with_bert.csv`: Summary table of all results
 - `sentimentmodelfinetuned.ipynb`: Using a sentiment pre-trained model from hugging face and fine-tune it 
-- `robertafinetuned.ipynb`: Using the roberta-base pre-trained model from hugging face and fine-tune it 
+- `robertafinetuned.ipynb`: Using the roberta-base pre-trained model from hugging face and fine-tune it
+- `clean.csv`: The dataset used in most of the notebooks
 ---
 
 ##  How to Reproduce
